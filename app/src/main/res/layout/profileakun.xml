@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/top" />
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/top"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gambar" />
+
+        <ImageView
+            android:id="@+id/ivuser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/akuun" />
+
+        <TextView
+            android:id="@+id/tvnm"
+            android:layout_marginTop="190dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="181dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user" />
+
+        <TextView
+            android:id="@+id/tvmail"
+            android:layout_marginTop="220dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user@gmail.com" />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvmail"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/box" />
+
+        <ImageView
+            android:id="@+id/boxx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/box"
+            android:src="@drawable/box" />
+
+        <ImageView
+            android:id="@+id/gambarr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/met6"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/gbr" />
+        <TextView
+            android:id="@+id/tvset"
+            android:layout_below="@+id/tvmail"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/met1"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvset"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="338dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu"
+                android:drawableStart="@drawable/ktp"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/met2"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="338dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu"
+                android:drawableStart="@drawable/lok"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/met3"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="338dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu"
+                android:drawableStart="@drawable/call"
+                android:hint="  Nomor Telepon"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/met4"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met3"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="338dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu"
+                android:drawableStart="@drawable/status"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/met5"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met4"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="338dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu"
+                android:drawableStart="@drawable/about"
+                android:text="  Tentang Kami"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/met6"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met5"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="338dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu"
+                android:drawableStart="@drawable/logout"
+                android:text="  Keluar Akun"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/kotak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/met6"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/kotak" />
+
+        <ImageButton
+            android:id="@+id/btnhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met6"
+            android:layout_marginTop="81dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/btnhslvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met6"
+            android:layout_marginTop="81dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/btnhome"
+            app:srcCompat="@drawable/hasilvote" />
+        <ImageButton
+            android:id="@+id/btnberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met6"
+            android:layout_marginTop="81dp"
+            android:layout_toRightOf="@+id/btnhslvote"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/htm" />
+        <ImageButton
+            android:id="@+id/btnakun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/met6"
+            android:layout_marginTop="81dp"
+            android:layout_toRightOf="@+id/btnberita"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/pilihakun" />
+    </RelativeLayout>
+</ScrollView>

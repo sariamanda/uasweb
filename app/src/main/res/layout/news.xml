@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/top" />
+
+        <ImageView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/top"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/judul" />
+
+        <ImageView
+            android:id="@+id/pas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pas" />
+
+        <ImageView
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pas"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pass" />
+
+        <ImageView
+            android:id="@+id/passs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pass"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/passs" />
+        <ImageView
+            android:id="@+id/kata"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/passs"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/kata" />
+
+        <ImageView
+            android:id="@+id/kotak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/kata"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/kotak" />
+
+        <ImageButton
+            android:id="@+id/btnhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kata"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/home" />
+        <ImageButton
+            android:id="@+id/btnhslvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kata"
+            android:layout_toRightOf="@+id/btnhome"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/hasilvote" />
+        <ImageButton
+            android:id="@+id/btnberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kata"
+            android:layout_toRightOf="@+id/btnhslvote"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/berita" />
+        <ImageButton
+            android:id="@+id/btnakun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kata"
+            android:layout_toRightOf="@+id/btnberita"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/akun" />
+
+
+    </RelativeLayout>
+</ScrollView>
